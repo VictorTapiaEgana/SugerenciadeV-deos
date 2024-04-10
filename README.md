@@ -1,3 +1,8 @@
+
+# Link al Proyecto 🚀
+
+https://sugerenciade-v-deos.vercel.app/
+
 # Sugerencias de Video
 
  Implementacion de polimorfismo y patrones de modulo.
@@ -50,8 +55,9 @@
 
  ``` 
  - Script.js
- ``` bash
+ ```bash
    import { Reproductor } from "./Reproductor.js";
+
 
     export const cargarVideo = (()=>{
         
@@ -65,7 +71,7 @@
             }
         }     
 
-    })();
+    })()
 
     const video1 = new Reproductor('https://youtube.com/embed/kuiBaqDVRkE','musica')
     const video2 = new Reproductor('https://youtube.com/embed/-Io5NKsJ1jA','peliculas')
@@ -77,5 +83,6 @@
 
     video1.setInicio(1)
 
- ``` 
+ ```
 
+ 
